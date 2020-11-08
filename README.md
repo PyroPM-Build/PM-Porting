@@ -1,9 +1,9 @@
 
-####################################################################################################
-### PyroPM PSA Edits
+########################################################################################
+# PyroPM PSA Edits
 ## Original edits by Yohan1044,
 ## with credit to Draco_the, KingJigglyPuff, ds22, and DukeItOut
-####################################################################################################
+########################################################################################
 
 Many PSA -- fighter.pac -- files have been modified to recieve minor cosmetic enhancements
 or patched to prevent crashes. No changes to gameplay animations, attributes, frame data,
@@ -25,8 +25,8 @@ whole or any of its playtesters.
 	6 - PSA Stability fixes
 	7 - Fighter PAC Injection Changes
 
-####################################################################################################
-# 1. The following fighter.pac files have been patched with ds22's memory leak fix.
+########################################################################################
+### 1. The following fighter.pac files have been patched with ds22's memory leak fix.
 Some fighters receive additional PSA edits, as noted later | Implemented by ds22 and Yohan1044.
 These fixes will prevent certain crashes from prolonged gameplay sessions with these fighters:
 	Game & Watch
@@ -40,8 +40,8 @@ These fixes will prevent certain crashes from prolonged gameplay sessions with t
 	Sonic
 	Zero Suit Samus
 
-####################################################################################################
-# 2. All Pokemon received sparkle during their entry animation for their shiny variant(s).
+########################################################################################
+### 2. All Pokemon received sparkle during their entry animation for their shiny variant(s).
 The subaction used for this (1C2-main-entry) is not full, so new slots can be added
 with ease. The left entry has been changed to point to the right entry in every case,
 so edits to only one location are required to remove or change which costumes are shiny.
@@ -54,16 +54,16 @@ so edits to only one location are required to remove or change which costumes ar
 	Pikachu - Red Team & Ash Hat (Red-skinned)
 	Squirtle - Purple (Green-shelled)
 
-####################################################################################################
-# 3. For compatibility with Team Glow, characters with "destroy all graphics" instructions
+########################################################################################
+### 3. For compatibility with Team Glow, characters with "destroy all graphics" instructions
 have been modified to avoid destroying Team Glow | Implemented by Yohan1044.
 	Diddy - Juggling balls and Shades
 	Sonic - Runtrails on side-taunt (redirected for space)
 	ROB   - Armtrails on grounded side-B 
 	Zelda - Erroneous terminate in the grab-wait
 
-####################################################################################################
-# 4. Costume slot dependent effects | Implemented by Yohan1044 with credit
+########################################################################################
+### 4. Costume slot dependent effects | Implemented by Yohan1044 with credit
 
 Ganondorf now uses the Trident for some costumes as originally implemented in
 KingJigglyPuff's PSA provided with Nano and Corshmell's Pig Ganon.
@@ -135,19 +135,19 @@ Toon Link has had the Outset sword effects moved to all costume slots 20 and up.
 	This affects GFX on almost all attacks
 	Subactions and Subroutines were moved.
 
-####################################################################################################
-# 5. Removed Peach entry files | Implemented by DukeItOut.
+########################################################################################
+### 5. Removed Peach entry files | Implemented by DukeItOut.
 
 Edits to Peach's coding during her entry animation were made to remove her dependency
 on Entry files, saving much hard drive space and avoiding crashes when adding costumes
 without Entry files. Credit to DukeItOut.
 
-####################################################################################################
-# 6. PSA Stability fixes | Implemented by DukeItOut and Yohan1044
+########################################################################################
+### 6. PSA Stability fixes | Implemented by DukeItOut and Yohan1044
 
 Sonic and Lucario have had calls to bad data removed from their PSAs.
 
-####################################################################################################
-# 7. Fighter PAC Injection Changes | Implemented by Pyro and KingJigglyPuff
+########################################################################################
+### 7. Fighter PAC Injection Changes | Implemented by Pyro and KingJigglyPuff
 
 Every character has had internal addresses relocated to work with P+'s codeset alterations.
