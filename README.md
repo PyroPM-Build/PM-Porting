@@ -1,15 +1,14 @@
 
 ########################################################################################
 # PyroPM PSA Edits
-### A project by Pyro,
-### with credit to KingJigglyPuff.
-### Original edits for Legacy TE by Yohan1044,
-### with credit to Draco_the, KingJigglyPuff, ds22, and DukeItOut.
-########################################################################################
-
+### A project by Pyro, with credit to KingJigglyPuff.
+### Original edits for Legacy TE by Yohan1044, with credit to Draco_the, KingJigglyPuff, ds22, and DukeItOut.
 ########################################################################################
 ### Completed Characters
 
+	Captain Falcon - Pyro
+	Dedede - Pyro
+	Diddy Kong - Pyro
 	Kirby - KingJigglyPuff
 	Lucario - KingJigglyPuff
 
