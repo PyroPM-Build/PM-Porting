@@ -29,16 +29,17 @@ whole or any of its playtesters.
 ### 1. The following fighter.pac files have been patched with ds22's memory leak fix.
 Some fighters receive additional PSA edits, as noted later | Implemented by ds22 and Yohan1044.
 These fixes will prevent certain crashes from prolonged gameplay sessions with these fighters:
-	Game & Watch
-	Ganondorf
-	Kirby
-	Lucario
-	Mewtwo
-	Pit
-	ROB
-	Snake
-	Sonic
-	Zero Suit Samus
+
+	1 - Game & Watch
+	2 - Ganondorf
+	3 - Kirby
+	4 - Lucario
+	5 - Mewtwo
+	6 - Pit
+	7 - ROB
+	8 - Snake
+	9 - Sonic
+	10 - Zero Suit Samus
 
 ########################################################################################
 ### 2. All Pokemon received sparkle during their entry animation for their shiny variant(s).
@@ -46,21 +47,23 @@ The subaction used for this (1C2-main-entry) is not full, so new slots can be ad
 with ease. The left entry has been changed to point to the right entry in every case,
 so edits to only one location are required to remove or change which costumes are shiny.
   | This PMDT concept has been implemented by Yohan1044.
-	Charizard - Black
-	Ivysaur - Green Team
-	Jigglypuff - Blue Team (Green-eyed)
-	Lucario - Yellow & Red Gi
-	Mewtwo - Green Team & Brass Armored
-	Pikachu - Red Team & Ash Hat (Red-skinned)
-	Squirtle - Purple (Green-shelled)
+
+	1 - Charizard - Black
+	2 - Ivysaur - Green Team
+	3 - Jigglypuff - Blue Team (Green-eyed)
+	4 - Lucario - Yellow & Red Gi
+	5 - Mewtwo - Green Team & Brass Armored
+	6 - Pikachu - Red Team & Ash Hat (Red-skinned)
+	7 - Squirtle - Purple (Green-shelled)
 
 ########################################################################################
 ### 3. For compatibility with Team Glow, characters with "destroy all graphics" instructions
 have been modified to avoid destroying Team Glow | Implemented by Yohan1044.
-	Diddy - Juggling balls and Shades
-	Sonic - Runtrails on side-taunt (redirected for space)
-	ROB   - Armtrails on grounded side-B 
-	Zelda - Erroneous terminate in the grab-wait
+
+	1 - Diddy - Juggling balls and Shades
+	2 - Sonic - Runtrails on side-taunt (redirected for space)
+	3 - ROB   - Armtrails on grounded side-B 
+	4 - Zelda - Erroneous terminate in the grab-wait
 
 ########################################################################################
 ### 4. Costume slot dependent effects | Implemented by Yohan1044 with credit
@@ -114,12 +117,14 @@ Nano, Pit, and Tock's Awakening Roy.
 Samus received edits to her thrusters. New thruster locations were added corresponding to the
 PED Suit Samus costumes by Nano, Allbait, and SJS. Thruster effects were fixed on Dash attack
 and Victory 1. The costume slot ranges for different thrusters were modified:
+
 		0 - 19: Default Power Suit
 		20 - 24: Dark Suit
 		25 - 29: Light Suit
 		30 - 34: Fusion Suit
 		35 - 39: Retro Power Suit
 		40+ :	 PED Suit
+
 	This affects GFX on jumps, dashAttack, rolls, UpTaunt, and Victory 1.
 	A Subroutine was created.
 
