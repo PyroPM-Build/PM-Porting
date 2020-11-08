@@ -1,16 +1,16 @@
 
 ########################################################################################
 # PyroPM PSA Edits
-### A project by Pyro, with credit to KingJigglyPuff.
-### Original edits for Legacy TE by Yohan1044, with credit to Draco_the, KingJigglyPuff, ds22, and DukeItOut.
+### A project by Pyro, with credit to KingJigglypuff.
+### Original edits for Legacy TE by Yohan1044, with credit to Draco_the, KingJigglypuff, ds22, and DukeItOut.
 ########################################################################################
 ### Completed Characters
 
 	Captain Falcon - Pyro
 	Dedede - Pyro
 	Diddy Kong - Pyro
-	Kirby - KingJigglyPuff
-	Lucario - KingJigglyPuff
+	Kirby - KingJigglypuff, Pyro
+	Lucario - KingJigglypuff
 
 ########################################################################################
 ### Changes when porting
@@ -83,7 +83,7 @@ have been modified to avoid destroying Team Glow | Implemented by Yohan1044.
 ### 4. Costume slot dependent effects | Implemented by Yohan1044 with credit
 
 Ganondorf now uses the Trident for some costumes as originally implemented in
-KingJigglyPuff's PSA provided with Nano and Corshmell's Pig Ganon.
+KingJigglypuff's PSA provided with Nano and Corshmell's Pig Ganon.
 
 	Slots 0-19, and AltR 	- Twilight Princess sword	
 	Slots 20-39 		- Trident
@@ -119,7 +119,7 @@ Peach has had fire effects moved to costume slots 20-29 and shadow effects moved
 	SubActions were moved.
 
 Pit has had a new pink glide added for costume slot 23 (Classic Pink) and new feather colors added
-for costume slots 22 and 23 (Classic Mint). This uses assets from KingJigglyPuff's Cupid Pit PSA.
+for costume slots 22 and 23 (Classic Mint). This uses assets from KingJigglypuff's Cupid Pit PSA.
 Pit's black feathers and purple glide have been moved to slots 5 and 21.
 
 	This affects GFX on extra jumps, down taunt, and glide.
@@ -132,7 +132,7 @@ ROB has been modified to use costume specific gfx banks and MotionEtc files.
 	Subactions and subroutines were moved and created.
 
 Roy has had the Awakening sword effects moved to costume slots 20-29. Roy's sword glow lengths have
-been restored to PM 3.6 values. This is a Legacy edit to KingJigglyPuff's PSA provided with
+been restored to PM 3.6 values. This is a Legacy edit to KingJigglypuff's PSA provided with
 Nano, Pit, and Tock's Awakening Roy.
 
 	This affects GFX on almost all attacks.
