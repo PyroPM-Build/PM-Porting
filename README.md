@@ -15,7 +15,8 @@
 ########################################################################################
 ### Changes when porting
 
-Character have internal addresses relocated to work with P+'s codeset alterations.
+Character have internal addresses removered to work with P+'s codeset alterations.
+These have yet to be tested, as these alterations are in preparation for the next P+ update. They will most likely crash or work improperly in-game until then.
 
 ########################################################################################
 ### Legacy TE Changes
