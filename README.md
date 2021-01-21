@@ -14,9 +14,16 @@
 	Fox - Pyro
 	Mr. Game & Watch - Pyro
 	Ganondorf - Pyro
+	Giga Bowser - Pyro
+	Ike - Pyro
 	Kirby - KingJigglypuff, Pyro
+	Bowser - Pyro
+	Link - Pyro
 	Lucario - KingJigglypuff
+	Lucas - Pyro
+	Luigi - Pyro
 	Mario - Pyro
+	Marth - Pyro
 	Ivysaur - Pyro
 
 ########################################################################################
@@ -24,6 +31,7 @@
 
 Character have internal addresses removed to work with P+'s codeset alterations.
 These have not been extensively tested, so if issues arise in-game report them to me via Discord or open an issue here.
+Read the previous issues to make sure that it is not already known and in-progress.
 
 ########################################################################################
 ### Legacy TE Changes
