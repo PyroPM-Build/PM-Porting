@@ -9,14 +9,21 @@
 	Captain Falcon - Pyro
 	Dedede - Pyro
 	Diddy Kong - Pyro
+	Donkey Kong - Pyro
+	Falco - Pyro
+	Fox - Pyro
+	Mr. Game & Watch - Pyro
+	Ganondorf - Pyro
 	Kirby - KingJigglypuff, Pyro
 	Lucario - KingJigglypuff
+	Mario - Pyro
+	Ivysaur - Pyro
 
 ########################################################################################
 ### Changes when porting
 
-Character have internal addresses removered to work with P+'s codeset alterations.
-These have yet to be tested, as these alterations are in preparation for the next P+ update. They will most likely crash or work improperly in-game until then.
+Character have internal addresses removed to work with P+'s codeset alterations.
+These have not been extensively tested, so if issues arise in-game report them to me via Discord or open an issue here.
 
 ########################################################################################
 ### Legacy TE Changes
