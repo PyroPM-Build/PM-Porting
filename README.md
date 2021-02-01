@@ -29,9 +29,7 @@
 	Marth - Pyro
 	Mewtwo - Spigel
 	Ness - Spigel
-	Peach - Spigel
 	Pikachu - Spigel
-	Olimar - Spigel
 	Ivysaur - Pyro
 	Charizard - Spigel
 	Squirtle - Spigel
