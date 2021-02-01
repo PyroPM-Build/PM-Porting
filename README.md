@@ -1,9 +1,12 @@
 
 ########################################################################################
 # PyroPM PSA Edits
-### A project by Pyro, with credit to KingJigglypuff.
+### A project by Pyro, with credit to KingJigglypuff, and Spigel.
 ### Original edits for Legacy TE by Yohan1044, with credit to Draco_the, KingJigglypuff, ds22, and DukeItOut.
 ########################################################################################
+
+## These will not work in P+ 2.25 when that releases. Due to alterations in P+'s codeset, some commands previously in the codeset are now in the PSAs, and that has not been done yet.
+
 ### Completed Characters
 
 	Captain Falcon - Pyro
@@ -24,7 +27,21 @@
 	Luigi - Pyro
 	Mario - Pyro
 	Marth - Pyro
+	Mewtwo - Spigel
+	Ness - Spigel
+	Peach - Spigel
+	Pikachu - Spigel
+	Olimar - Spigel
 	Ivysaur - Pyro
+	Charizard - Spigel
+	Squirtle - Spigel
+	Ice Climbers - Spigel
+	Jigglypuff - Spigel
+	R.O.B. - Spigel
+	Roy - Spigel
+	Sheik - Spigel
+	Zero Suit Samus - Spigel
+	Yoshi - Spigel
 
 ########################################################################################
 ### Changes when porting
