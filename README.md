@@ -1,52 +1,21 @@
 
 ########################################################################################
 # PyroPM PSA Edits
-### A project by Pyro, with credit to KingJigglypuff, and Spigel.
+### A project by Pyro, with credit to Spigel and KingJigglypuff.
 ### Original edits for Legacy TE by Yohan1044, with credit to Draco_the, KingJigglypuff, ds22, and DukeItOut.
 ########################################################################################
 
-## These will not work in P+ 2.25 when that releases. Due to alterations in P+'s codeset, some commands previously in the codeset are now in the PSAs, and that has not been done yet.
-
-### Completed Characters
-
-	Captain Falcon - Pyro
-	Dedede - Pyro
-	Diddy Kong - Pyro
-	Donkey Kong - Pyro
-	Falco - Pyro
-	Fox - Pyro
-	Mr. Game & Watch - Pyro
-	Ganondorf - Pyro
-	Giga Bowser - Pyro
-	Ike - Pyro
-	Kirby - KingJigglypuff, Pyro
-	Bowser - Pyro
-	Link - Pyro
-	Lucario - KingJigglypuff
-	Lucas - Pyro
-	Luigi - Pyro
-	Mario - Pyro
-	Marth - Pyro
-	Mewtwo - Spigel
-	Ness - Spigel
-	Pikachu - Spigel
-	Ivysaur - Pyro
-	Charizard - Spigel
-	Squirtle - Spigel
-	Ice Climbers - Spigel
-	Jigglypuff - Spigel
-	R.O.B. - Spigel
-	Roy - Spigel
-	Sheik - Spigel
-	Zero Suit Samus - Spigel
-	Yoshi - Spigel
-
-########################################################################################
 ### Changes when porting
 
 Character have internal addresses removed to work with P+'s codeset alterations.
 These have not been extensively tested, so if issues arise in-game report them to me via Discord or open an issue here.
 Read the previous issues to make sure that it is not already known and in-progress.
+
+Additionally, characters have had frame speed modifiers (FSMs) moved into their PSAs.
+Before these FSMs were located in the Animation Engine codes, which were removed.
+
+Three characters (Donkey Kong, Meta Knight, and Kirby) have had action overrides added to their grabs.
+This is to prevent a bug where the opponent gets stuck to the attacker.
 
 ########################################################################################
 ### Legacy TE Changes
@@ -116,9 +85,7 @@ have been modified to avoid destroying Team Glow | Implemented by Yohan1044.
 Ganondorf now uses the Trident for some costumes as originally implemented in
 KingJigglypuff's PSA provided with Nano and Corshmell's Pig Ganon.
 
-	Slots 0-19, and AltR 	- Twilight Princess sword	
-	Slots 20-39 		- Trident
-	Otherwise		- Melee Sword
+	Slots 0-39 - Twilight Princess sword
 
 	This affects GFX and loaded articles on the Down Taunt.
 	Conditional logic was improved reducing codesize.
