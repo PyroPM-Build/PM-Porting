@@ -7,47 +7,6 @@
 // copy paste above line into psa-c if you have a two part smash or tilt that you want to change to the system
 // multi attack system was offset 0x80546270 or offset 9019FA90
 
-// sorry eon i've failed you, once i figure out how to do what you said above i'll remove it, but until then have a bad 3.6 code
-
-Multi Attack Sequence Input System (9019FA90) [Magus]
-* 4A000000 90000000
-* 1619FA00 00000118
-* 00000005 22000002
-* 00000005 22000022
-* 00000000 FFFFFFFF
-* 00000006 00000014
-* 00000006 80000032
-* 00000000 00000000
-* 00000005 22000022
-* 00000006 00000032
-* 00000000 00000000
-* 00000006 00000008
-* 00000005 22000022
-* 00000005 22000002
-* 00000006 00000030
-* 00000000 00000000
-* 00000006 80000030
-* 00000000 0000000F
-* 00000005 22000002
-* 00000001 00001770
-* 120B0100 9019FA00
-* 120B0100 9019FA08
-* 00040100 9019FA10
-* 000A0100 9019FA18
-* 000B0200 9019FA20
-* 120A0100 9019FA30
-* 000F0000 00000000
-* 000A0200 9019FA38
-* 000B0200 9019FA48
-* 120A0100 9019FA58
-* 000F0000 00000000
-* 000A0200 9019FA60
-* 000B0200 9019FA70
-* 120A0100 9019FA80
-* 000F0000 00000000
-* 00010100 9019FA88
-* 00050000 00000000
-
 ###################################
 Jab Input System (originally at 9019D080) 2.0 [Magus, Eon]
 ###################################
