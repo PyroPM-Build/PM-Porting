@@ -36,7 +36,34 @@ op blt- 0x34	   @ $8018CFC8
 .include Source/Project+/Moonwalk.asm
 .include Source/Project+/AirDodge.asm
 
-//.include Source/Extras/Console.asm	# Only use this on a Wii or Wii U! The codes in this are necessary for the slower specifications of the actual console.
-.include Source/Extras/Netplay.asm	# Only use this in Dolphin! The codes in this will result in bad behavior on the Wii!
+##################################################
+Kirby Lucas hat PK Freeze hitbox [standardtoaster]
+##################################################
+* 4A000000 901B2000
+* 16000000 000000A8
+* 00000000 00000000
+* 00000000 00000005
+* 00000000 00000046
+* 00000000 0000001D
+* 00000000 0000002D
+* 00000001 0001EC2F
+* 00000001 00000000
+* 00000001 00000000
+* 00000001 00000000
+* 00000001 00000000
+* 00000001 0002F9B8
+* 00000001 00007530
+* 00000000 36432080
+* 00000000 00000000
+* 00000000 01CFFFC3
+* 00000001 00200B20
+* 06150F00 901B2000
+* 04000100 901B2000
+* 00020100 901B2078
+* 0C050000 00000000
+* 00080000 00000000
+
+// .include Source/Extras/Console.asm	// Only use this on a Wii or Wii U! The codes in this are necessary for the slower specifications of the actual console.
+.include Source/Extras/Netplay.asm	// Only use this in Dolphin! The codes in this will result in bad behavior on the Wii!
 
 .include Source/Extras/More.asm
