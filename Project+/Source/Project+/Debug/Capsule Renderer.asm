@@ -690,11 +690,13 @@ HOOK @ $8070d2a8
 	mr r29, r4 #ViewingMatrix
 	mr r30, r5 #Colour1
 	mr r31, r6 #Colour2
-
+	
 	#DisplayBubble(Double Radius, Float[3][4] ScaleMatrix, Float[3] Pos1, Float[3] Pos2, Byte[4] Colour1, Byte[4] Colour2, Float[3][4] ViewingMatrix)
 	#0x80541fa0
 	lfs f1, 0xC(r28) #radius
-	
+	fsubs f0, f1, f1
+	fcmpo cr0, f1, f0
+	ble end
 	addi r3, r28, 0x40 	#ScaleMatrix
 	addi r4, r28, 0 	#Pos1
 	addi r5, r28, 0x34 	#Pos2
@@ -707,7 +709,7 @@ HOOK @ $8070d2a8
 	mtctr r12
 	bctrl
 	
-
+end:
 	lmw r28, 0x10(r1)
 	lwz r0, 0x24(r1)
 	mtlr r0
@@ -745,6 +747,9 @@ HOOK @ $8070de4c
 	#DisplayBubble(Double Radius, Float[3][4] ScaleMatrix, Float[3] Pos1, Float[3] Pos2, Byte[4] Colour1, Byte[4] Colour2, Float[3][4] ViewingMatrix)
 	#0x80541FA0
 	lfs f1, 0xC(r28) 	#radius
+	fsubs f0, f1, f1
+	fcmpo cr0, f1, f0
+	ble end
 
 	addi r3, r1, 0x10 	#ScaleMatrix
 	addi r4, r28, 0 	#Pos1
@@ -759,7 +764,7 @@ HOOK @ $8070de4c
 	mtctr r12
 	bctrl
 	
-
+end:
 	lmw r28, 0x40(r1)
 	lwz r0, 0x54(r1)
 	mtlr r0

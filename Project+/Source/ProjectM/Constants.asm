@@ -80,11 +80,11 @@
 3386 - Kirby Inhale Time Reduced per Input [10->12]
 	float 12.0	   @ $80B886A4
 3400 - DK Cargo Hold Base Time [100->13]
-* 04B886DC 41500000
+	float 13.0	   @ $80B886DC
 3401 - DK Cargo Hold Increase per Damage [5->0.074]
-* 04B886E0 3D978D50
+	float 0.074	   @ $80B886E0
 3402 - DK Cargo Hold Reduction per Input [10->1]
-* 04B886E4 3F800000
+	float 1.0	   @ $80B886E4
 3412 - Dedede Inhale Star Reduction per Input [12 -> 3]
 	float 3.0	   @ $80B8870C
 3466 - Curry Run Animation Speed Multiplier [2->1]

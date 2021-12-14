@@ -1,6 +1,6 @@
-#####################################################################################
-[Project+] Independent Button Presses v2 [Magus] (with 2 frame ZSync Extension [Eon])
-#####################################################################################
+################################################
+[Project+] Independent Button Presses v2 [Magus]
+################################################
 HOOK @ $80048F64
 {
 	cmpwi r12, 0x2329;	beqlr-;	lbz r5, 8(r5
@@ -69,7 +69,7 @@ loc_0x84:
   lis r9, 0x8062;  ori r9, r9, 0x13D4
   add r9, r9, r25
   lwz r8, 0x40(r9)
-  li r25, 3 			#number of frames to retroactively change (caps at 16 coz only 16 frames are remembered)
+  li r25, 1 			#number of frames to retroactively change (caps at 16 coz only 16 frames are remembered)
 DecrementInputCounter: 	#defines how many frames are available to Zsync, 1 makes it match vanilla
   cmpwi r25, 0
   beq loc_0x100

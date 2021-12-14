@@ -51,7 +51,7 @@ E0000000 80008000
 0417F36C 00000000
 E0000000 80008000
 
-Default Settings Modifier, Paragon Stagelist [PMDT, Igglyboo, Brkirch, FMK and Bird]
+!Default Settings Modifier, Paragon Stagelist [PMDT, Igglyboo, Brkirch, FMK and Bird]
 24494A98 80000000
 20523300 00000000
 04523300 DEADBEEF

@@ -1284,7 +1284,7 @@ TABLE_2:
 0x03, | # Luigi's Mansion
 0x07, | # Rumble Falls
 0x25, | # Corneria
-0x27, | # Brinstar
+0x27, | # Planet Zebes
 0x1F, | # Temple
 0x08, | # Pirate Ship
 0x2B, | # Training Room
@@ -1331,7 +1331,7 @@ half[61] |	# Stage Count + 2
 0x1F19, 0x201A, 0x211B, 0x221C, | # Fountain of Dreams, Fourside, Smashville, Shadow Moses Island
 0x231D, 0x241E, 0x4326, 0x2932, | # Green Hill Zone, PictoChat, Sky Sanctuary, Temple
 0x2A33, 0x472A, 0x2C35, 0x2D36, | # Yoshi's Story, Golden Temple, Onett, Dream Land
-0x2F37, 0x3038, 0x3139, 0x323A, | # Rainbow Cruise, Corneria, Big Blue, Brinstar
+0x2F37, 0x3038, 0x3139, 0x323A, | # Rainbow Cruise, Corneria, Big Blue, Planet Zebes
 0x2E3B, 0xFF64, 0xFF64, 0x373C, | # Pokemon Stadium 2, NOTHING, NOTHING, Training Room
 | # NEW SLOTS
 0x4023, 0x4124, 0x4225, 0x251F, | # Dracula's Castle, Mario Circuit, Clock Town, Hanenbow

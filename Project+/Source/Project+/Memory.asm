@@ -224,6 +224,7 @@ skip:
 	cmpwi r0, 0		# Original operation
 }
 
+
 ###########################################
 TopN Y and SCD Bottom Reference Fix [Magus]
 ###########################################
@@ -238,6 +239,7 @@ HOOK @ $80134200
   lwz r10, 0x18(r10)
   lwz r0,  0x10(r10)
 }
+
 ######################################
 Stage Collisions Update TopN Y [Magus]
 ######################################

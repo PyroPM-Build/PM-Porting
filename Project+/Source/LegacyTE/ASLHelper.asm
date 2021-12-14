@@ -64,6 +64,7 @@ eventMatch:
   bne co_op_event		# /
 single_event:
   cmpwi r12,  4;	beq- single_L	# Event Match  4 (A Skyworld Engagement), load Brawl Skyworld
+  cmpwi r12,  6;	beq- single_X	# Event Match  6 (Bird in the Darkest Night), loads Brinstar (Planet Zebes' X-alt)
   cmpwi r12,  9;	beq- single_X	# Event Match  9 (Clash of Swords), load Castle Siege Brawl
   cmpwi r12, 17;	beq- single_L	# Event Match 17 (Brisk Expedition), load Summit (Infinite Glacier's L-alt)
   cmpwi r12, 19;	beq- single_Y	# Event Match 19 (Metal Battle in Metal Cavern), load Metal Cavern 64
