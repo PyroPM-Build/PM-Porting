@@ -1784,7 +1784,7 @@ skip:
 
 
 ##############################################################
-[Project+] DK Cargo Uses default Grab Hold time reduction per frame [Eon]
+![Project+] DK Cargo Uses default Grab Hold time reduction per frame [Eon]
 ##############################################################
 HOOK @ $8089156c
 {
